@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!------Header-------->
+    <div class="header">
+        <img src="./channels4_profile.jpg" alt="logo">
+        <h2>Alamin Tech Support</h2>
+        <p>Giveaway contest</p>
+    </div>
+    <!-----Header end------->
+
+    <!-----Add participant section------>
+    <div class="add-participant">
+        <input id="new-participant" type="text" name="participant"j>
+        <button class="btn" id="btn" type="submit">Add Participant</button>
+    </div>
+    <!----Add participant section end--->
+
+    <!----Content section------>
+    <div class="content">
+        
+        <div class="participant">
+            <p>Participant List</p>
+            <ul id="items">
+                
+            </ul>
+            
+        </div>
+        <div class="shuffle">
+            <button class="btn shuffle-btn" id="shuffle-btn">Shuffle</button>
+        </div>
+        <div class="winner" id="winner">
+            <p>Winner</p>
+            <ul id="winner-list">
+                <li id="contest-winner"></li>
+            </ul>
+        </div>
+    </div>
+    <!----End content section------>
+
+
+    <!---JS Script-->
+    <script src="./app.js"></script>
+</body>
+</html>
