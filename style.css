@@ -16,12 +16,7 @@ body {
     text-align: center;
     margin-top: 20px;
 }
-.header h2 {
-    color: black;
-    font-size: 40px;
-    font-weight: 800;
-    text-shadow: 1px 1px 3px rgb(255, 0, 0);
-}
+
 .header p {
     font-size:20px;
     text-transform: uppercase;
@@ -37,7 +32,6 @@ body {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
